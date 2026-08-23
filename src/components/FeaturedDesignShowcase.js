@@ -163,11 +163,7 @@ export default function FeaturedDesignShowcase() {
   }, [selectedPhoto, currentSlideIndex, designsList]);
 
   return (
-    <div
-      className={`w-full max-w-4xl mx-auto px-4 sm:px-6 mb-12 relative z-10 transition-all duration-300 ${
-        isOpen ? "mt-24 sm:mt-28 md:mt-32" : "mt-8 sm:mt-10"
-      }`}
-    >
+    <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 relative z-10">
       {/* Featured Showcase Box Container */}
       <div className="rounded-3xl bg-[#161616] text-white border border-neutral-800 shadow-2xl text-left relative overflow-hidden transition-all duration-300">
         

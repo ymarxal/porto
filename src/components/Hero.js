@@ -145,19 +145,8 @@ export default function Hero({ onOpenContact }) {
       </div>
 
       {/* === AREA GALLERY (bg berbeda, selang-seling) === */}
-      <div className="relative z-10 py-20 md:py-28 bg-[#0c0c0c]">
-        {/* Panah Gulir */}
-        <div className="flex justify-center mb-12">
-          <a
-            href="#portfolio"
-            className="inline-flex items-center justify-center w-12 h-12 rounded-full border border-neutral-800 text-neutral-400 hover:text-[#eee642] hover:border-[#eee642] transition-colors animate-bounce shadow-sm cursor-pointer"
-            aria-label="Gulir ke Bawah"
-          >
-            <ArrowDown className="w-5 h-5" />
-          </a>
-        </div>
-
-        {/* Kotak Showcase 50 Foto Desain & Artwork */}
+      <div className="relative z-10 py-16 md:py-24 bg-[#0c0c0c]">
+        {/* Kotak Showcase Desain */}
         <FeaturedDesignShowcase />
       </div>
     </section>
