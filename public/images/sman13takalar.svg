@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#0C0C0C"/>
+  <!-- Subtle Background Grid -->
+  <path d="M0 135 H1200 M0 270 H1200 M0 405 H1200 M0 540 H1200" stroke="#181818" stroke-width="1.5"/>
+  <path d="M240 0 V675 M480 0 V675 M720 0 V675 M960 0 V675" stroke="#181818" stroke-width="1.5"/>
+  
+  <!-- Centered Favicon / Logo Circle Badge -->
+  <circle cx="600" cy="300" r="110" fill="#161616" stroke="#2563EB" stroke-width="4"/>
+  
+  <!-- Graduation Cap Icon Vector -->
+  <polygon points="600,220 710,270 600,320 490,270" fill="#EEE642"/>
+  <path d="M525 287 V335 C525 355 675 355 675 335 V287" fill="none" stroke="#EEE642" stroke-width="8" stroke-linecap="round"/>
+  <path d="M710 270 V340" stroke="#EEE642" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="710" cy="350" r="10" fill="#EEE642"/>
+
+  <!-- Centered Brand Title & URL -->
+  <text x="600" y="470" font-family="-apple-system, monospace" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">SMAN 13 TAKALAR</text>
+  <text x="600" y="525" font-family="-apple-system, monospace" font-size="22" font-weight="700" fill="#EEE642" text-anchor="middle" letter-spacing="2">https://sman13takalar.vercel.app/</text>
+</svg>

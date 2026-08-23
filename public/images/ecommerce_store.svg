@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <rect width="1200" height="800" fill="#09090B"/>
+
+  <!-- Editorial E-commerce Frame -->
+  <rect x="60" y="60" width="1080" height="680" fill="#18181B" rx="16" stroke="#27272A" stroke-width="1.5"/>
+
+  <!-- Top Nav Bar -->
+  <rect x="60" y="60" width="1080" height="70" fill="#09090B" opacity="0.9" rx="16"/>
+  <text x="110" y="102" fill="#FFFFFF" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="3">VELOCE ATELIER</text>
+
+  <g transform="translate(680, 92)" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="14" font-weight="500">
+    <text x="0" y="12" fill="#FFFFFF">COLLECTION 2026</text>
+    <text x="140" y="12">LOOKBOOK</text>
+    <text x="250" y="12">STORES</text>
+    <text x="340" y="12" fill="#EC4899">BAG (2)</text>
+  </g>
+
+  <!-- Hero Banner -->
+  <g transform="translate(100, 160)">
+    <rect x="0" y="0" width="1000" height="520" rx="14" fill="#27272A"/>
+    
+    <!-- Editorial Imagery Canvas -->
+    <rect x="0" y="0" width="550" height="520" rx="14" fill="#3F3F46"/>
+    <circle cx="275" cy="220" r="140" fill="#EC4899" opacity="0.3"/>
+    <path d="M 160 380 Q 275 140, 390 380 Z" fill="#18181B" opacity="0.8"/>
+    
+    <!-- Hero Copy Side -->
+    <g transform="translate(600, 80)">
+      <text x="0" y="40" fill="#EC4899" font-family="monospace" font-size="14" letter-spacing="3">NEW ARRIVAL / ED. 04</text>
+      <text x="0" y="100" fill="#FFFFFF" font-family="'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" leading="1.1">NEO-SWISS<br/>PARKA JACKET</text>
+      
+      <text x="0" y="210" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="16">Water-resistant technical membrane with modular magnetic pockets and 3D woven fibers.</text>
+      
+      <text x="0" y="270" fill="#FFFFFF" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700">$890 USD</text>
+
+      <rect x="0" y="310" width="240" height="54" rx="27" fill="#EC4899"/>
+      <text x="120" y="343" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">ADD TO BAG →</text>
+    </g>
+  </g>
+</svg>

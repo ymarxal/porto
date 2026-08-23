@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="portraitBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F7F5"/>
+      <stop offset="100%" stop-color="#E5E5E0"/>
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#262626"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#portraitBg)"/>
+
+  <!-- Minimalist Studio Grid backdrop -->
+  <g opacity="0.1" stroke="#111111" stroke-width="1">
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+    <line x1="0" y1="750" x2="800" y2="750"/>
+    <line x1="200" y1="0" x2="200" y2="1000"/>
+    <line x1="400" y1="0" x2="400" y2="1000"/>
+    <line x1="600" y1="0" x2="600" y2="1000"/>
+  </g>
+
+  <!-- Designer Stylized Silhouette / Vector Art -->
+  <g transform="translate(400, 520)">
+    <!-- Shoulders / Torso -->
+    <path d="M -220 380 Q -180 180, 0 160 Q 180 180, 220 380 Z" fill="url(#avatarGrad)"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="110" ry="140" fill="#2563EB" opacity="0.15"/>
+    <ellipse cx="0" cy="-10" rx="100" ry="130" fill="url(#avatarGrad)"/>
+    
+    <!-- Glasses / Creative Dev Vibe -->
+    <rect x="-70" y="-30" width="55" height="40" rx="10" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+    <rect x="15" y="-30" width="55" height="40" rx="10" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+    <line x1="-15" y1="-10" x2="15" y2="-10" stroke="#FFFFFF" stroke-width="6"/>
+
+    <!-- Subtle Smile / Line -->
+    <path d="M -30 50 Q 0 70, 30 50" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Editorial Watermark -->
+  <text x="60" y="100" fill="#111111" font-family="'Helvetica Neue', sans-serif" font-size="28" font-weight="900" letter-spacing="4">YUSUF MARCELINO</text>
+  <text x="60" y="130" fill="#2563EB" font-family="monospace" font-size="14" letter-spacing="2">CREATIVE DEVELOPER & DESIGNER</text>
+</svg>
