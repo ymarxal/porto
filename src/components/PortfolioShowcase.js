@@ -19,11 +19,12 @@ export default function PortfolioShowcase({ onSelectProject }) {
           </div>
         </div>
 
-        {/* 3 Kotak Website & Aplikasi Utama */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        {/* Kotak Website & Aplikasi Utama */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {PROJECTS_DATA.map((project, index) => {
             const isCafePOS = project.id === "algopos" || project.id === "smartcafepos";
             const isKotaCloud = project.id === "kotacloud";
+            const isNawala = project.id === "nawala18";
 
             return (
               <div
@@ -65,6 +66,8 @@ export default function PortfolioShowcase({ onSelectProject }) {
                             ? "/images/favicons/kotacloud-favicon.svg" 
                             : isCafePOS
                             ? "/images/logos/algopos.svg"
+                            : isNawala
+                            ? "/images/favicons/nawala18-favicon.svg"
                             : "/images/favicons/sman13takalar-favicon.svg";
                         }}
                       />
@@ -74,7 +77,11 @@ export default function PortfolioShowcase({ onSelectProject }) {
                           {project.title}
                         </h4>
                         <span className="text-[10px] font-mono text-[#eee642] block">
-                          {isCafePOS ? "Fullstack POS & Ordering" : "Official Website"}
+                          {isCafePOS 
+                            ? "Fullstack POS & Ordering" 
+                            : isNawala 
+                            ? "3D Interactive Yearbook" 
+                            : "Official Website"}
                         </span>
                       </div>
                     </div>
@@ -108,7 +115,9 @@ export default function PortfolioShowcase({ onSelectProject }) {
                           className="w-3.5 h-3.5 rounded object-contain shrink-0"
                           onError={(e) => {
                             e.target.onerror = null;
-                            e.target.src = `https://www.google.com/s2/favicons?domain=${new URL(project.link).hostname}&sz=64`;
+                            e.target.src = isNawala
+                              ? "/images/favicons/nawala18-favicon.svg"
+                              : `https://www.google.com/s2/favicons?domain=${new URL(project.link).hostname}&sz=64`;
                           }}
                         />
                         <div className="flex items-center gap-1 text-[11px] font-mono text-[#eee642] truncate">

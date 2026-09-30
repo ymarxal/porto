@@ -36,10 +36,15 @@ const CAROUSEL_GROUPS = [
     slideIds: [32, 33, 34],
     title: "Desain Carousel #32 - #34",
   },
+  {
+    coverId: 35,
+    slideIds: [35, 36],
+    title: "Desain Carousel #35 - #36",
+  },
 ];
 
 export default function FeaturedDesignShowcase() {
-  const TOTAL_PHOTOS = 34;
+  const TOTAL_PHOTOS = 36;
   const [isOpen, setIsOpen] = useState(true);
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
